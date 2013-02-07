@@ -16,11 +16,11 @@ Add this line to your application's Gemfile:
 
 Then require it in your javascript manifest file (```application.js``` by default)
 
-    //= reuqire backbone-associations
+    //= require backbone-associations
 
 ## Versioning
 
 ```backbone-associations-rails``` will track the version of ```backbone-associations```.
 
 ## Issues
-For issues with ```backbone-associations```, please file an issue over at their [issue tracker](https://github.com/dhruvaray/backbone-associations/issues).
+For issues with ```backbone-associations```, please file an issue over at their [issue tracker](https://github.com/dhruvaray/backbone-associations/issues). Otherwise, please file an issue here.
