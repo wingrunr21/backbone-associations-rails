@@ -44,11 +44,12 @@ namespace :backbone_associations do
       exit
     end
 
-    # Update marionette
+    # Update backbone-associations
     puts "Updating backbone-associations..."
-    url = "https://raw.github.com/dhruvaray/backbone-associations/#{sha}/lib/backbone-associations.js"
+    base_url = "https://raw.github.com/dhruvaray/backbone-associations/#{sha}"
+    files = %w{backbone-associations.js backbone-associations-min.js}
     Dir.chdir './vendor/assets/javascripts' do
-      `curl -O #{url}`
+      files.each {|file| `curl -O #{base_url}/#{file}`}
     end
 
     # Update version file
