@@ -52,6 +52,9 @@ namespace :backbone_associations do
       files.each {|file| `curl -O #{base_url}/#{file}`}
     end
 
+    # Fix the .map file's name so the asset pipeline doesn't choke on it
+    `mv ./vendor/assets/javascripts/backbone-associations.js.map ./vendor/assets/javascripts/backbone-associations.map`
+
     # Update version file
     puts "Updating version.rb..."
     `sed -i "" "s/      VERSION = '.*'/      VERSION = '#{name}'/g" lib/backbone-associations-rails/version.rb`
