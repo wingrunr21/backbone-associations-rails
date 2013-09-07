@@ -24,3 +24,7 @@ Then require it in your javascript manifest file (```application.js``` by defaul
 
 ## Issues
 For issues with ```backbone-associations```, please file an issue over at their [issue tracker](https://github.com/dhruvaray/backbone-associations/issues). Otherwise, please file an issue here.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wingrunr21/backbone-associations-rails/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
