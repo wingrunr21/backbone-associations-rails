@@ -4,7 +4,7 @@ This gem vendors the [Backbone-associations](https://github.com/dhruvaray/backbo
 
 ## Dependencies
 
-```backbone-associations``` requires Backbone.js >= 0.9.10 and Underscore.js >= 1.4.3
+```backbone-associations``` requires Backbone.js >= 1.0.0 and Underscore.js >= 1.4.3
 
 ## Installation
 
