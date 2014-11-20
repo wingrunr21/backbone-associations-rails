@@ -46,7 +46,7 @@ namespace :backbone_associations do
 
     # Update backbone-associations
     puts "Updating backbone-associations..."
-    base_url = "https://raw.github.com/dhruvaray/backbone-associations/#{sha}"
+    base_url = "https://raw.githubusercontent.com/dhruvaray/backbone-associations/#{sha}"
     files = %w{backbone-associations.js backbone-associations-min.js backbone-associations.js.map}
     Dir.chdir './vendor/assets/javascripts' do
       files.each {|file| `curl -O #{base_url}/#{file}`}
